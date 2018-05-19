@@ -1,0 +1,17 @@
+﻿<Window x:Class="Powerball_Generator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Powerball_Generator"
+        mc:Ignorable="d"
+        Title="Powerball Drawing" Height="372.423" Width="367.645">
+    <Grid HorizontalAlignment="Left" Width="635">
+        <Button x:Name="btnDraw" Content="Draw" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="86" Height="71" Click="btnDraw_Click"/>
+        <TextBox x:Name="textBoxResults" Height="191" Margin="10,122,286,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="126,10,0,0" VerticalAlignment="Top" Width="96" Height="71" Click="buttonClear_Click"/>
+        <Button x:Name="btnQuit" Content="Quit" HorizontalAlignment="Left" Margin="253,10,0,0" VerticalAlignment="Top" Width="96" Height="71" Click="buttonQuit_Click"/>
+        <Label x:Name="lblDrawing" Content="Drawing" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
